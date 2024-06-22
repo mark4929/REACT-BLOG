@@ -1,0 +1,48 @@
+.contact{
+    display: flex;
+}
+.contactWrapper{
+    flex: 9;
+    padding: 20px;
+}
+.contactTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactMessageTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+
+}
+.contactForm > label{
+    font-size: 20px ;
+    margin-top: 20px;
+
+}
+.contactForm > input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+
+}
+.contactSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
